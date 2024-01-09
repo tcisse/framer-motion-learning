@@ -1,4 +1,4 @@
-export const container = {
+export const skills_container = {
     hidden: {opacity: 0},
     show: {
         opacity: 1,
@@ -10,7 +10,8 @@ export const container = {
     }
 }
 
-export const item = {
+
+export const skill_item = {
     hidden: {y: '100%'},
     show: {y: '0%', transition: { duration: 1}},
 };
