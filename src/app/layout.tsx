@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./components/Navbar";
 import { AnimatePresence } from "framer-motion";
+import Sidebar from "@/app/components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
